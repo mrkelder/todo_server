@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/mrkelder/todo_server/issues"
   },
-  "homepage": "https://github.com/mrkelder/todo_server#readme"
+  "homepage": "https://github.com/mrkelder/todo_server#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fastify": "^2.14.1"
+  }
 }
