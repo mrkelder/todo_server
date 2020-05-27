@@ -1,0 +1,23 @@
+{
+  "name": "todo_server",
+  "version": "0.1.0",
+  "description": "server for my fantastic todo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrkelder/todo_server.git"
+  },
+  "keywords": [
+    "todo",
+    "server"
+  ],
+  "author": "Vlad Ageev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrkelder/todo_server/issues"
+  },
+  "homepage": "https://github.com/mrkelder/todo_server#readme"
+}
