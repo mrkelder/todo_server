@@ -28,7 +28,7 @@ async function route(fastify, object) {
     // Adds tasks
     const { name, date } = req.query;
     fastify.mongodb(({ db, client }) => {
-      db.collection('tasks').insertOne({ name: name, date: date, completed: false }, (err, res) => {
+      db.collection('tasks').insertOne({ name: name, date: new Date(date), completed: false }, (err, res) => {
         assert.equal(err, null);
         reply.code(200).header('Access-Control-Allow-Origin', '*').send(res.insertedId);
         client.close();
