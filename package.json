@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/mrkelder/todo_server#readme",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "fastify": "^2.14.1",
     "mongodb": "^3.5.7"
   }
